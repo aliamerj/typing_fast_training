@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url(./img/bg-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Edu SA Beginner", cursive;
+}
+
+.content {
+  background-color: #f0db4f;
+  padding: 1.8%;
+  border-radius: 0.5rem;
+  width: 70%;
+  box-shadow: 8px -1px 19px 4px rgba(0, 0, 0, 0.83);
+  -webkit-box-shadow: 8px -1px 19px 4px rgba(0, 0, 0, 0.83);
+  -moz-box-shadow: 8px -1px 19px 4px rgba(0, 0, 0, 0.83);
+}
+.timer {
+  font-family: "Dosis", sans-serif;
+  font-size: 4rem;
+  color: #f0db4f;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.quote-display {
+  margin-bottom: 1rem;
+  margin-left: calc(1rem + 2px);
+  margin-right: calc(1rem + 2px);
+  font-size: 5vh;
+  user-select: none;
+}
+.quote-Input {
+  font-family: "Edu SA Beginner", cursive;
+  background-color: transparent;
+  border: 2px solid #a1922e;
+  outline: none;
+  width: 100%;
+  height: 8rem;
+  margin: auto;
+  resize: none;
+  padding: 0.5rem 1rem;
+  font-size: 4vh;
+  border-radius: 0.5rem;
+}
+.quote-Input:focus {
+  border-color: black;
+}
+.correct {
+  color: green;
+}
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
